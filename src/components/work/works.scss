@@ -1,0 +1,34 @@
+.work{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .wktexts{
+        width: 55%;
+    }
+
+    .wktitle{
+        margin-top: 10px;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .wkdesc{
+        margin: 20px 0px;
+        font-size: 20px;
+        font-style: italic;
+    }
+
+    .wklist{
+        width: 90%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.eg{
+    font-size: 20px;
+}

@@ -1,0 +1,41 @@
+.p{
+    width: 50%;
+    height: 40vh;
+    margin-right: 40px;
+    border: 1px solid black;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+
+    .p-browser{
+        width: 110%;
+        height: 20px;
+        background-color: black;
+        display: flex;
+        margin: 0;
+        align-items: center;
+        position: sticky;
+        z-index: 2;
+        
+        p{
+            color:white;
+            margin: 100px;
+        }
+
+        .p-circle{
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            margin: 4px;
+            background-color: white;
+        }
+    }
+
+    .p-img{
+        width: 100%;
+        transition: all 10s ease;
+    }
+}
+
+.p:hover .p-img{
+    transform: translateY(-100%);
+}
